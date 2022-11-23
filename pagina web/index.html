@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Seachbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hogar</a>
+              </li>
+              <li class="nav-item">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Down
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Otras actiones</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Algo mas aqui</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Desabilitado</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+
+    <h1 class="text-center text-warning my-4">Bootstrap</h1>
+    <hr>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First</h5>
+              <p>Slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second</h5>
+              <p>Some representative placeholder.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third label</h5>
+              <p>Some representative placeholder content.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide.</h5>
+              <p>Some representative.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true">Hola soy un texto</span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+    <section class="container mt-6 px-2">
+        <p class="text-center text-capitalize fw-bold fs-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis ab placeat enim beatae cum numquam harum facilis aut, aliquid iste alias quaerat voluptatum ea possimus eius ad suscipit? Aspernatur.</p>
+        <p class="text-end text-uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis ab placeat enim beatae cum numquam harum facilis aut, aliquid iste alias quaerat voluptatum ea possimus eius ad suscipit? Aspernatur.</p>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis ab placeat enim beatae cum numquam harum facilis aut, aliquid iste alias quaerat voluptatum ea possimus eius ad suscipit? Aspernatur.</p>
+        <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus nobis ab placeat enim beatae cum numquam harum facilis aut, aliquid iste alias quaerat voluptatum ea possimus eius ad suscipit? Aspernatur.</p>
+    </section>
+
+    <button class="btn btn-primary py-2 px-5 mx-auto d-block btn-lg">Pulsame ahora</button>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Todos quieren esto</h5>
+          <p class="card-text">Some quick example text.</p>
+          <a href="informacion.com" class="btn btn-outline-success btn-sm">Informacion</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <article class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-secondary p-3 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+            </article>
+        
+            <article class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-secondary p-3 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+                periores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+            </article>
+        
+            <article class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-secondary p-3 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+                labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+            </article>
+        
+            <article class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-secondary p-3 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+                tae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+            </article>
+        
+            <article class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-secondary p-3 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+                ius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+            </article>
+        
+            <article class="col-xl-3 col-lg-4 col-md-6 col-sm-12 bg-secondary p-3 text-light">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae blanditiis magni neque animi possimus eos facilis dolorem eius a amet asperiores labore exercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+                ercitationem aliquid doloremque minus, harum, ratione pariatur autem!
+            </article>
+        
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <table class="table table-dark table-striped">
+            <thead>
+              <tr>
+                <th scope="col">desktop//</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">9</th>
+                <td>Marca</td>
+                <td>Roberto</td>
+                <td>@dmgt</td>
+              </tr>
+              <tr>
+                <th scope="row">8</th>
+                <td>Javier</td>
+                <td>Participante</td>
+                <td>@fell</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">Lorem ipsum dolor sit.</td>
+                <td>@youtube</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <div class="container">
+        <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Este correo es incorrecto</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Chequea ahora</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Subir</button>
+          </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
